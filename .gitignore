@@ -8,6 +8,10 @@
 /PUBLICACAO_GITHUB.md
 /GUIA_PUBLICACAO.md
 
+# ===== EXCECOES ESPECIAIS =====
+# Permitir relatorio de aprendizados (privado mas commitado)
+!/desenvolvimento_privado/documentacao/APRENDIZADOS_PROJETO_ML_IMOVEIS.md
+
 # ===== MOSTRAR APENAS PROJETO ACADEMICO =====
 # Permitir pasta do projeto academico (tudo visivel)
 !/projeto_academico/
