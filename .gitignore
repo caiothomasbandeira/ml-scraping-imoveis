@@ -1,38 +1,80 @@
-# Desenvolvimento privado (manter oculto)
-desenvolvimento_privado/
-.venv/
+# ===== CONFIGURACAO PARA REPOSITORIO PUBLICO =====
+# Ocultar arquivos de desenvolvimento da raiz (manter privados)
+/data/
+/corretor_formatacao_automatico.py
+/corretor_manual.py
+/desenvolvimento_privado/
+/projeto_extra/
+/PUBLICACAO_GITHUB.md
+/GUIA_PUBLICACAO.md
 
-# Dados sensíveis (opcional - descomentar se quiser excluir)
-# data/
+# ===== MOSTRAR APENAS PROJETO ACADEMICO =====
+# Permitir pasta do projeto academico (tudo visivel)
+!/projeto_academico/
 
+# ===== ARQUIVOS PADRAO DO SISTEMA =====
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-*.egg-info/
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Jupyter Notebooks
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
 .ipynb_checkpoints
 
 # Logs
+logs/
 *.log
 
-# Sistema operacional
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Temporary files
 *.tmp
 *.temp
+*.bak
+*.backup
+*~
 
-# IDE
-.vscode/
-.idea/
-
-# Modelos e dados grandes (opcional)
-# *.pkl
-# *.csv
-
-# Relatórios HTML grandes (opcional)
-# *.html
+# Backup files from emoji cleanup
+*.backup_*
+*_OLD.md
