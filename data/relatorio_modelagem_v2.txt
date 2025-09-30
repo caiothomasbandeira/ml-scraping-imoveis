@@ -1,0 +1,51 @@
+================================================================================
+🤖 RELATÓRIO DE MODELAGEM PREDITIVA V2.0
+================================================================================
+📅 Data: 27/09/2025 14:26
+🎯 Objetivo: Previsão de Preços de Imóveis no DF
+📊 Dataset: 622 registros
+🏷️  Features: 22 variáveis
+
+📊 RESUMO DOS RESULTADOS
+--------------------------------------------------
+🏆 Melhor Modelo: Gradient Boosting
+📈 R² Score: 0.9904
+📊 RMSE: R$ 16,320
+📊 MAE: R$ 12,071
+📊 MAPE: 2.91%
+
+🏆 RANKING DE MODELOS (por R²)
+--------------------------------------------------
+ 1. Gradient Boosting    R²=0.9904  RMSE=R$16,320
+ 2. Random Forest        R²=0.9820  RMSE=R$22,345
+ 3. Decision Tree        R²=0.9729  RMSE=R$27,430
+ 4. Linear Regression    R²=0.9473  RMSE=R$38,214
+ 5. Lasso                R²=0.9473  RMSE=R$38,214
+ 6. Ridge                R²=0.9471  RMSE=R$38,303
+ 7. Elastic Net          R²=0.8687  RMSE=R$60,334
+ 8. SVR                  R²=-0.0643  RMSE=R$171,767
+
+🎯 TOP 10 FEATURES MAIS IMPORTANTES
+--------------------------------------------------
+ 1. area                      0.5507
+ 2. preco_por_m2              0.4210
+ 3. quartos                   0.0071
+ 4. loc_Asa Sul               0.0051
+ 5. area_por_quarto           0.0034
+ 6. area_cat_Amplo            0.0016
+ 7. area_cat_Compacto         0.0014
+ 8. area_cat_Médio            0.0013
+ 9. loc_Águas Claras          0.0013
+10. loc_Ceilândia             0.0012
+
+🔍 INTERPRETAÇÃO DOS RESULTADOS
+--------------------------------------------------
+✅ Excelente: Modelo explica >80% da variância dos preços
+📊 Erro médio: 3.7% do preço médio
+
+💡 RECOMENDAÇÕES
+--------------------------------------------------
+1. Coletar mais dados de localização específica
+2. Incluir features temporais (idade do imóvel)
+3. Adicionar informações sobre infraestrutura
+4. Considerar dados de mercado imobiliário

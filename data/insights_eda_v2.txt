@@ -1,0 +1,22 @@
+RELATÓRIO DE INSIGHTS - ANÁLISE EXPLORATÓRIA
+============================================================
+
+Data da análise: 2025-09-27 14:21:28
+Total de registros analisados: 622
+
+INSIGHTS IDENTIFICADOS:
+
+ 1. 🏠 Configuração mais comum: 2 quartos (33.1%)
+ 2. 📊 preco: Distribuição não-normal - usar testes não-paramétricos
+ 3. 💰 Presença de imóveis de alto valor influencia a média
+ 4. 📊 area: Distribuição não-normal - usar testes não-paramétricos
+ 5. 📊 quartos: Distribuição não-normal - usar testes não-paramétricos
+ 6. 🔗 Forte correlação entre area e quartos: 0.862
+ 7. 🔗 Forte correlação entre area e banheiros: 0.779
+ 8. 🔗 Forte correlação entre quartos e banheiros: 0.907
+ 9. 🔗 Forte correlação entre quartos e area_por_quarto: -0.750
+10. 📍 Região mais cara: Asa Sul (R$ 639,018 em média)
+11. 📍 Região mais econômica: Ceilândia (R$ 273,148 em média)
+12. 📊 Diferença de preço entre regiões: 133.9%
+13. 💰 Preço médio por m² no DF: R$ 5,192/m²
+14. 📐 Eficiência espacial: 39.8 m² por quarto em média

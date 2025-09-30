@@ -1,0 +1,1 @@
+# Relatórios Documentação técnica do projeto: - `relatorio_modelo_final.txt` - Relatório técnico do modelo final - `relatorio_analise_avancada.txt` - Relatório da análise exploratória

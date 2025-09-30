@@ -1,0 +1,38 @@
+# Desenvolvimento privado (manter oculto)
+desenvolvimento_privado/
+.venv/
+
+# Dados sensíveis (opcional - descomentar se quiser excluir)
+# data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# Modelos e dados grandes (opcional)
+# *.pkl
+# *.csv
+
+# Relatórios HTML grandes (opcional)
+# *.html

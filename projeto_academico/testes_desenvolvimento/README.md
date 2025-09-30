@@ -1,0 +1,1 @@
+# Scripts de Desenvolvimento Scripts utilizados durante o desenvolvimento e testes: - `investigar_overfitting.py` - Investigação de overfitting - `testar_features_adicionais.py` - Teste de features (melhorou modelo) - Outros scripts de limpeza e organização de dados

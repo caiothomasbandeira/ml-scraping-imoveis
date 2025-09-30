@@ -1,0 +1,1 @@
+# Dados Finais Dados limpos e modelo treinado: - `dados_limpos.csv` - Dataset final limpo (4.539 registros) - `dataset_bruto.csv` - Dataset bruto consolidado - `modelo_final_imoveis.pkl` - Modelo treinado (R² = 91.6%) - `visualizacoes_modelo_final.png` - Gráficos do modelo

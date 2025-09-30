@@ -1,0 +1,2 @@
+registros_originais,registros_removidos,outliers_removidos,registros_finais,campos_criados,timestamp
+637,15,15,622,"['preco_por_m2', 'area_por_quarto', 'razao_banheiro_quarto', 'categoria_preco', 'categoria_area']",2025-09-27 14:17:34

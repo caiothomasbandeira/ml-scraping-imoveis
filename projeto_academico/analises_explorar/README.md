@@ -1,0 +1,1 @@
+# Análises Exploratórias Scripts de análise exploratória dos dados: - `analise_avancada.py` - Análise estatística completa - `executar_analise.py` - Análise básica dos dados
